@@ -2,11 +2,10 @@
 
 ![stk61_handwired](imgur.com image replace me!)
 
-*A short description of the keyboard/project*
+*Handwired stk61 using an ATmega32U4 Pro Micro*
 
-* Keyboard Maintainer: [Charlotte Melis](https://github.com/uranioh)
+* Keyboard Maintainer: [uranioh](https://github.com/uranioh)
 * Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
 
 Make example for this keyboard (after setting up your build environment):
 
@@ -23,5 +22,4 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 Enter the bootloader in 3 ways:
 
 * **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+* **Physical reset button**: Briefly press the button on the back of the board *twice* (wired to RST and GND of the Pro Micro)
